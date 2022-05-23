@@ -3,3 +3,48 @@
    padding: 0;
    box-sizing: border-box; 
 }
+
+/* common classes */
+
+.p-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-jc-sb{
+    justify-content: space-between;
+}
+
+.ai-center{
+
+    align-items: center;
+
+}
+
+/* mobile */
+
+.site-header{
+    background-color: lightskyblue;
+    height: 60px;
+    width: 100%;
+}
+
+.site-header .container{
+
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.big{
+    display: none;
+}
+
+#logo{
+    height: 30px;
+
+}
