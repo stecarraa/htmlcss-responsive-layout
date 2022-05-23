@@ -85,7 +85,6 @@
     text-align: center;
     box-sizing: border-box;
     margin: 50px;
-    background-color: lightskyblue;
     border-radius: 30px;
 }
 
@@ -100,4 +99,20 @@
 
 .bg-purple{
     background-color: plum;
+}
+
+.bg-lighbtlue{
+    background-color: lightskyblue;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+footer{
+    background-color: aquamarine;
+}
+
+footer .section-text{
+    margin-bottom: 0;
 }
