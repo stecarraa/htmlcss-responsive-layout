@@ -16,6 +16,11 @@
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .d-jc-sb{
     justify-content: space-between;
 }
@@ -26,12 +31,20 @@
 
 }
 
+.card-content .fa-solid{
+    font-size: 60px;
+}
+
 /* mobile */
 
 .site-header{
     background-color: lightskyblue;
     height: 60px;
     width: 100%;
+}
+
+.site-main{
+    margin-top: 110px;
 }
 
 .site-header .container{
@@ -47,4 +60,18 @@
 #logo{
     height: 30px;
 
+}
+
+/* card */
+
+.card{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50px;
+    background-color: lightskyblue;
+    border-radius: 30px;
+}
+
+.card-content{
+     padding: 15px;   
 }
