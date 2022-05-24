@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -43,20 +46,21 @@
         <div class="container">
             <div class="">
                 <div class="card bg-lighbtlue flex-column d-jc-sb">
-                    <h3 class="card-content">Get a demo application</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                    <h3 class="card-content color-blue text-left">Get a demo application</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
+                    <a class="card-content btn" href="#">app store</a>
                     <img src="./img/phone.png" alt="">
 
                 </div>
 
                 <div class="card bg-lighbtlue flex-column d-jc-sb">
-                    <div class="card-content"><i class="fa-solid fa-laptop-code"></i></div>
-                    <h3 class="card-content">Get a demo application</h3>
+                    <div class="card-content color-blue"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="card-content color-blue">Get a demo application</h3>
                     <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
@@ -66,8 +70,8 @@
                 </div>
 
                 <div class="card bg-lighbtlue flex-column d-jc-sb">
-                    <div class="card-content"><i class="fa-solid fa-laptop-code"></i></div>
-                    <h3 class="card-content">Get a demo application</h3>
+                    <div class="card-content color-blue"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="card-content color-blue">Get a demo application</h3>
                     <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
@@ -77,8 +81,8 @@
                 </div>
 
                 <div class="card bg-lighbtlue flex-column d-jc-sb">
-                    <div class="card-content"><i class="fa-solid fa-laptop-code"></i></div>
-                    <h3 class="card-content">Get a demo application</h3>
+                    <div class="card-content color-blue"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="card-content color-blue">Get a demo application</h3>
                     <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
@@ -88,8 +92,8 @@
                 </div>
 
                 <div class="card bg-lighbtlue flex-column d-jc-sb">
-                    <div class="card-content"><i class="fa-solid fa-laptop-code"></i></div>
-                    <h3 class="card-content">Get a demo application</h3>
+                    <div class="card-content color-blue"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="card-content color-blue">Get a demo application</h3>
                     <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
@@ -104,8 +108,9 @@
         <div class="bg-purple">
             <div class="container flex-column">
                 <img src="./img/planning1.png" alt="">
-                <h3 class="section-text">Strategic Planning</h3>
-                <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cupiditate quasi
+                <h3 class="section-text text-left color-wht">Strategic Planning</h3>
+                <p class="section-text text-left color-wht">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                    cupiditate quasi
                     porro delectus
                     voluptatibus deserunt iusto fuga quaerat laboriosam necessitatibus nemo, similique libero unde
                     distinctio numquam molestias vitae inventore. Molestiae.
@@ -119,7 +124,8 @@
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
+
+                    <div class="card-content"><i id="arrow" class="fa-solid fa-arrow-down"></i></div>
 
 
                 </div>
@@ -130,43 +136,55 @@
         <!-- terza sezione testimonials -->
 
         <div class="container flex-column">
-            <h4 class="section-text">TESTIMONIALS</h4>
-            <h3 class="section-text">We are commited expert</h3>
-            <p class="section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur
-                accusantium iure fugiat quos possimus repellat molestiae voluptates dolorem, minima omnis nemo excepturi
-                quod aliquam ullam veniam quibusdam iste. Beatae.</p>
+            <div class="container flex-column">
+                <h4 class="section-text">TESTIMONIALS</h4>
+                <h3 class="section-text color-prpl">We are commited expert</h3>
+                <p class="section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur
+                    accusantium iure fugiat quos possimus repellat molestiae voluptates dolorem, minima omnis nemo
+                    excepturi
+                    quod aliquam ullam veniam quibusdam iste. Beatae.</p>
+            </div>
         </div>
 
-        <div class="card bg-purple flex-column d-jc-sb">
+        <div class="card bg-purple flex-column d-jc-sb color-wht">
             <div class="card-content"><img id="testimonial" src="./img/testimonial1.jpg" alt=""></div>
-            <h3 class="card-content">Get a demo application</h3>
-            <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+            <p class="card-content"><strong class="quotes"><i class="fa-solid fa-quote-left"></i></strong> Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Ut distinctio non
                 ullam, error
                 explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
-                fugiat. Molestiae odit deleniti et.
+                fugiat. Molestiae odit deleniti et. <strong class="quotes"><i
+                        class="fa-solid fa-quote-right"></i></strong>
             </p>
-
-        </div>
-
-        <div class="card bg-purple flex-column d-jc-sb">
-            <div class="card-content"><img id="testimonial" src="./img/testimonial1.jpg" alt=""></div>
             <h3 class="card-content">Get a demo application</h3>
-            <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
-                ullam, error
-                explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
-                fugiat. Molestiae odit deleniti et.
-            </p>
+
 
         </div>
 
-        <div class="card bg-purple flex-column d-jc-sb">
+        <div class="card bg-purple flex-column d-jc-sb color-wht">
             <div class="card-content"><img id="testimonial" src="./img/testimonial1.jpg" alt=""></div>
-            <h3 class="card-content">Get a demo application</h3>
-            <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+            <p class="card-content"><strong class="quotes"><i class="fa-solid fa-quote-left"></i></strong> Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Ut distinctio non
                 ullam, error
                 explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
-                fugiat. Molestiae odit deleniti et.
+                fugiat. Molestiae odit deleniti et. <strong class="quotes"><i
+                        class="fa-solid fa-quote-right"></i></strong>
             </p>
+            <h3 class="card-content">Get a demo application</h3>
+
+
+        </div>
+
+        <div class="card bg-purple flex-column d-jc-sb color-wht">
+            <div class="card-content"><img id="testimonial" src="./img/testimonial1.jpg" alt=""></div>
+            <p class="card-content"><strong class="quotes"><i class="fa-solid fa-quote-left"></i></strong> Lorem ipsum
+                dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                ullam, error
+                explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
+                fugiat. Molestiae odit deleniti et. <strong class="quotes"><i
+                        class="fa-solid fa-quote-right"></i></strong>
+            </p>
+            <h3 class="card-content">Get a demo application</h3>
+
 
         </div>
 
@@ -174,77 +192,82 @@
         <div class="bg-purple">
             <div class="container flex-column">
 
-                <h3 class="section-text">Benefits of working with us</h3>
+                <h3 class="section-text color-wht">Benefits of working with us</h3>
 
                 <div class="card bg-white flex-column d-jc-sb">
-                    <div class="card-content">01</div>
-                    <h3 class="card-content">High Quality</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                    <div class="card-content text-left color-prpl number">01</div>
+                    <h3 class="card-content text-left color-prpl">High Quality</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
+                    <a class="card-content btn" href="#">More</a>
 
                 </div>
 
                 <div class="card bg-white flex-column d-jc-sb">
-                    <div class="card-content">01</div>
-                    <h3 class="card-content">High Quality</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                    <div class="card-content text-left color-prpl number">01</div>
+                    <h3 class="card-content text-left color-prpl">High Quality</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
+                    <a class="card-content btn" href="#">More</a>
+                </div>
+
+                <div class="card bg-white flex-column d-jc-sb">
+                    <div class="card-content text-left color-prpl number">01</div>
+                    <h3 class="card-content text-left color-prpl">High Quality</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
+                        ullam, error
+                        explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
+                        fugiat. Molestiae odit deleniti et.
+                    </p>
+                    <a class="card-content btn" href="#">More</a>
 
                 </div>
 
                 <div class="card bg-white flex-column d-jc-sb">
-                    <div class="card-content">01</div>
-                    <h3 class="card-content">High Quality</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                    <div class="card-content text-left color-prpl number">01</div>
+                    <h3 class="card-content text-left color-prpl">High Quality</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
+                    <a class="card-content btn" href="#">More</a>
 
                 </div>
 
                 <div class="card bg-white flex-column d-jc-sb">
-                    <div class="card-content">01</div>
-                    <h3 class="card-content">High Quality</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                    <div class="card-content text-left color-prpl number">01</div>
+                    <h3 class="card-content text-left color-prpl">High Quality</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
+                    <a class="card-content btn" href="#">More</a>
 
                 </div>
 
                 <div class="card bg-white flex-column d-jc-sb">
-                    <div class="card-content">01</div>
-                    <h3 class="card-content">High Quality</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
+                    <div class="card-content text-left color-prpl number">01</div>
+                    <h3 class="card-content text-left color-prpl">High Quality</h3>
+                    <p class="card-content text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+                        distinctio non
                         ullam, error
                         explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
                         fugiat. Molestiae odit deleniti et.
                     </p>
-                    <a class="card-content" href="#">app store</a>
-
-                </div>
-
-                <div class="card bg-white flex-column d-jc-sb">
-                    <div class="card-content">01</div>
-                    <h3 class="card-content">High Quality</h3>
-                    <p class="card-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut distinctio non
-                        ullam, error
-                        explicabo possimus ad animi natus, facere in veritatis eveniet iste perspiciatis consectetur
-                        fugiat. Molestiae odit deleniti et.
-                    </p>
-                    <a class="card-content" href="#">app store</a>
+                    <a class="card-content btn" href="#">More</a>
 
                 </div>
 
@@ -252,41 +275,48 @@
         </div>
         <!-- sezione cinque about us -->
         <div class="container flex-column">
-            <h3 class="section-text">About us</h3>
-            <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ex non
-                laudantium molestiae quasi. Accusamus perferendis harum earum veritatis, nisi nesciunt
-                exercitationem temporibus. Laboriosam repellat, voluptates inventore velit beatae error.</p>
-            <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ex non
-                laudantium molestiae quasi. Accusamus perferendis harum earum veritatis, nisi nesciunt
-                exercitationem temporibus. Laboriosam repellat, voluptates inventore velit beatae error.</p>
-            <div class="section-text"><img id="testimonial" src="./img/testimonial1.jpg" alt=""></div>
-            <div class="section-text">Lorem ipsum dolor sit amet.</div>
-            <div class="section-text"><a href="#">find me on linkdn</a></div>
+            <h3 class="section-text text-left color-prpl">About us</h3>
+            <p class="section-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                repudiandae. Aperiam veritatis nesciunt maiores, quae voluptates consequuntur saepe dicta, laboriosam
+                omnis similique nemo cumque recusandae esse nulla repellat tenetur fuga corporis itaque? Neque sit et
+                voluptas quam. Aspernatur quae atque, quos quas odit ipsa fugit harum inventore animi voluptatibus
+                eaque?</p>
+            <p class="section-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                repudiandae. Aperiam veritatis nesciunt maiores, quae voluptates consequuntur saepe dicta, laboriosam
+                omnis similique nemo cumque recusandae esse nulla repellat tenetur fuga corporis itaque? Neque sit et
+                voluptas quam. Aspernatur quae atque, quos quas odit ipsa fugit harum inventore animi voluptatibus
+                eaque?</p>
+            <div class="section-text text-left"><img id="testimonial" src="./img/testimonial1.jpg" alt=""></div>
+            <div class="section-text text-left color-prpl">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Necessitatibus, temporibus.</div>
+            <div class="section-text text-left"><a class="btn" href="#">find me on linkdn</a></div>
         </div>
         <!-- sezione GET STARTED -->
-
-        <div class="container">
-            <div class="section-text">
-                <h4>GET STARTED</h4>
-            </div>
-            <div class="section-text">
-                <h3>
-                    Simple, transparent <br>pricing
-                </h3>
-            </div>
-            <div class="section-text">
-                <h2>It's free</h2>
-            </div>
-            <div class="section-text">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia praesentium ipsam vitae sit,
-                    facere ipsa minima culpa optio fuga fugit magni quibusdam adipisci, tenetur repudiandae ratione
-                    autem magnam sed.</p>
-            </div>
-            <div class="section-text">
-                <a href="#">Get started</a>
-            </div>
-            <div class="section-text">
-                cophjsbjjfdcbjhvc
+        <div class="bg-purple color-wht">
+            <div class="container">
+                <div class="section-text">
+                    <h4>GET STARTED</h4>
+                </div>
+                <div class="section-text">
+                    <h3>
+                        Simple, transparent <br>pricing
+                    </h3>
+                </div>
+                <div class="section-text">
+                    <h2>It's free</h2>
+                </div>
+                <div class="section-text">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, mollitia praesentium ipsam vitae
+                        sit,
+                        facere ipsa minima culpa optio fuga fugit magni quibusdam adipisci, tenetur repudiandae ratione
+                        autem magnam sed.</p>
+                </div>
+                <div class="section-text">
+                    <a class="btn-start" href="#">Get started</a>
+                </div>
+                <div class="section-text">
+                    cophjsbjjfdcbjhvc
+                </div>
             </div>
         </div>
 
