@@ -275,6 +275,13 @@ footer .section-text {
         width: calc(33% - 1.5rem);
         margin: 10px .75rem;
      }
+
+     .w-49{
+        width: calc(49% - 1.5rem);
+        margin: 10px .75rem;
+     }
+
+
     
     .site-header .container .navigation .small{
        display: none;
