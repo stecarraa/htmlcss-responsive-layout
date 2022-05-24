@@ -228,6 +228,10 @@ footer .section-text {
     }
 
 
+    .w-60{
+        width: calc(50% - 1.5rem);
+        margin: 10px .75rem;
+     }
 
  
     .size1x{
