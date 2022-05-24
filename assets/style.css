@@ -25,6 +25,9 @@ a{
     text-decoration: none;
 }
 
+ul{
+   list-style: none;
+}
 
 .btn{
     color: var(--white-col);
@@ -56,6 +59,10 @@ a{
 
 .d-flex {
     display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
 }
 
 .flex-column {
@@ -127,7 +134,10 @@ a{
 
 .container img {
     width: 100%;
-    max-width: 425px;
+}
+
+#phone{
+    max-width: 300px;
 }
 
 .section-text {
@@ -199,4 +209,84 @@ footer .section-text {
 
 
 
-.container {}
+@media all and (min-width: 768px){
+
+   
+    .site-main .container{
+       max-width: 700px;
+       margin: 0 auto;
+       
+      
+    }
+
+    .d-flex{
+        display: flex;
+    }
+
+    .f-wrap{
+        flex-wrap: wrap;
+    }
+
+
+
+ 
+    .size1x{
+       width: calc(33.333% - 1.5rem);
+       margin: 10px .75rem;
+    }
+ 
+    .card.size-2x{
+       width: calc(66.666% - 1.5rem);
+       margin: 10px .75rem;
+    }
+
+    .container img {
+        width: 100%;
+       
+    }
+
+    .w-50{
+        width: calc(48% - 1.5rem);
+        margin: 10px .75rem;
+     }
+
+     .testimonial{
+         display: flex;
+         align-items: center;
+     }
+
+     .testimonial .card-content{
+         text-align: left;
+     }
+ }
+ 
+ @media all and (min-width: 992px){
+    .site-main .container{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+
+    .site-header .container{
+       max-width: 1100px;
+       margin: 0 auto;
+    }
+    .w-50{
+        width: calc(33% - 1.5rem);
+        margin: 10px .75rem;
+     }
+    
+    .site-header .container .navigation .small{
+       display: none;
+    }
+    .site-header .container .navigation .big{
+       display: block;
+    }
+    .site-header .container .navigation .big ul li{
+       display: inline-block;
+       
+       padding: 5px 10px;
+    }
+ 
+ 
+ }
