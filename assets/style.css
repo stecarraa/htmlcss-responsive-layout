@@ -49,6 +49,16 @@ ul{
     width: 50%;
 }
 
+.btn-menu{
+    color: var(--secondary-col);
+    background-color: var(--white-col);
+    border-radius: 20px;
+    padding: 13px;
+    text-align: center;
+    margin: 20px;
+    width: 50%;
+}
+
 /* common classes */
 
 .p-fixed {
@@ -93,6 +103,14 @@ ul{
 
 }
 
+.section-title{
+    font-size: 50px;
+}
+
+.free{
+    color: gold;
+}
+
 .number{
     font-size: 60px;
     font-weight: bold;
@@ -103,6 +121,12 @@ ul{
     border-radius: 50%;
     height: 150px;
     width: 150px;
+}
+
+.about{
+    font-size: 20px;
+    width: 30%;
+
 }
 
 /* mobile */
